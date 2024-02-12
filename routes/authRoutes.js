@@ -8,7 +8,7 @@ const {test, getdocx} = require('../controllers/authControllers');
 router.use(
     cors({
         credentials: true,
-        origin: 'http://localhost:3000'
+        origin: 'http://pdf-to-docx.s3-website.ap-south-1.amazonaws.com'
     })
 )
 
